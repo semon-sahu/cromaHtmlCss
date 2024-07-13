@@ -1,0 +1,167 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.navbar {
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    i:hover {
+            scale: 1.1;
+            transition: all .1s;
+        }
+    input {
+        border-radius: 5px;
+        font-size: 10px;
+        width: 400px;
+        padding: 10px;
+        /* // position: relative; */
+
+    }
+
+    i {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    .navbar {
+        width: 100%;
+
+        i {
+            /* // display: none; */
+            display: block;
+
+        }
+
+        input {
+            width: 50px;
+        }
+    }
+
+}
+
+#search_icon {
+    margin-left: -20px;
+    /* // position: absolute; */
+}
+
+.your{
+    padding-left: 20px;
+}
+.applay{
+    padding-left: 20px;
+}
+
+.content{
+    margin-top: 50px;
+}
+
+.cart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    box-shadow: 0px 0.5px 15px;
+    gap: 120px;
+    /* width: 70%; */
+    margin-left: 80px;
+    margin-right: 80px;
+    i{
+        color:aquamarine;
+    }
+    /* margin-top: 0px; */
+   
+}
+.remove{
+margin-top: -80px;
+margin-left: 80px;
+
+
+ button{
+    color: rgb(36, 91, 91);
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 10px;
+    cursor: pointer;
+
+
+ }
+}
+.rate{
+    text-align: end;
+    a{
+        color: rgb(39, 130, 99);
+    }
+    margin-top:30px;
+}
+
+
+
+/* //FOOTER  SECTION */
+
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 100px;
+    background-color: black;
+    /* // position: static; */
+
+}
+
+
+.social {
+    color: white;
+    margin-left: 20px;
+
+
+    input {
+        font-size: 20px;
+        padding: 5px;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+
+    i {
+
+        font-size: 50px;
+        margin: 10px;
+        margin-top: 50px;
+        color: white;
+    }
+}
+
+
+.useful_links {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    gap: 20px;
+}
+
+.products {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+    gap: 20px;
+}
+
+footer {
+    color: white;
+    border-radius: 2px solid rgb(82, 76, 76);
+    background-color: rgb(40, 34, 34);
+    text-align: center;
+    padding: 20px;
+}
